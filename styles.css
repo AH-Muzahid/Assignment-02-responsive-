@@ -1,365 +1,390 @@
 body {
-    margin: 0 auto;
-    box-sizing: border-box;
-    max-width: 1440px;
-    font-family: "Inter", sans-serif;
-    background-color: rgb(240, 244, 255);
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: "Inter", sans-serif;
+  background-color: rgb(240, 244, 255);
 }
 
 /* Shared Styles */
 .text {
-    font-family: "Inter", sans-serif;
-    color: rgba(0, 0, 0, 0.5);
+  font-family: "Inter", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .title {
-    color: rgb(233, 90, 8);
-    font-family: "Noto Serif", serif;
-    font-weight: 700px;
-    font-size: 50px;
-    margin-bottom: 0;
+  color: rgb(233, 90, 8);
+  font-family: "Noto Serif", serif;
+  font-weight: 700px;
+  font-size: 50px;
+  margin-bottom: 0;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 span {
-    font-family: "Noto Serif", serif;
-    color: black;
+  font-family: "Noto Serif", serif;
+  color: black;
 }
-
 
 /* Navbar Styles */
 .navbar {
-    margin: 0 auto;
-    max-width: 1140px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
 }
 
 .navlinks {
-    display: flex;
-    gap: 50px;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  list-style: none;
 }
-
 
 /* Hero Section */
 
 .hero {
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 120px 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 120px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .t-1 {
-    font-size: 65px;
+  font-size: 65px;
 }
 
 .hero-img {
-    /* width: 570px; */
-    width: 100%;
+  /* width: 570px; */
+  width: 100%;
 }
 
 /* Our Plants section */
 
 .plants {
-    margin: 0 auto;
-    max-width: 1140px;
+  margin: 0 auto;
+  max-width: 1140px;
 }
-.plants>p{
-    max-width: 80%;
-    margin: 0 auto;
+.plants > p {
+  max-width: 80%;
+  margin: 0 auto;
 }
 .cards {
-    max-width: 1140px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    padding: 15px;
-
+  max-width: 1140px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  padding: 15px;
 }
 
 .card {
-    text-align: center;
+  text-align: center;
 }
 
 .name {
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
-    color: rgb(17, 17, 17);
-    font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  color: rgb(17, 17, 17);
+  font-size: 22px;
 }
 
 .price {
-    font-family: "Inter", sans-serif;
-    font-weight: 700;
-    color: rgb(17, 17, 17);
-    font-size: 22px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  color: rgb(17, 17, 17);
+  font-size: 22px;
 }
 
 .btn {
-    color: rgb(255, 255, 255);
-    background-color: rgb(233, 90, 8);
-    border: none;
-    font-weight: 600;
-    padding: 20px 80px;
-    height: 50px;
-    width: 270px;
-    margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(233, 90, 8);
+  border: none;
+  font-weight: 600;
+  padding: 20px 80px;
+  height: 50px;
+  width: 270px;
+  margin-bottom: 30px;
 }
 
 /* badge section */
 
 .badge {
-    max-width: 1140px;
-    margin: 0 auto;
-    gap: 60px;
-    display: flex;
-    justify-content: space-between;
-    padding: 120px 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 15px;
 }
 
 .store-img {
-    flex: 1;
-    max-width: 100%;
-    position: relative;
+  flex: 1;
+  max-width: 100%;
+  position: relative;
 }
 
 .seller {
-    max-width: 100%;
-    z-index: 1;
+  max-width: 100%;
+  z-index: 1;
 }
 
 .trusted {
-    padding: 15px;
-    z-index: 2;
-    width: 285px;
-    height: 285px;
-    position: absolute;
-    left: 350px;
-    top: -120px;
-    z-index: 2;
+  padding: 15px;
+  z-index: 2;
+  width: 285px;
+  height: 285px;
+  position: absolute;
+  left: 350px;
+  top: -120px;
+  z-index: 2;
 }
 
 .store-text {
-    flex: 1;
-    padding: 30px;
+  flex: 1;
+  padding: 30px;
 }
 
 .Store-li {
-    list-style: circle;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  list-style: circle;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
-
 
 /* deals section */
 .deals {
-    max-width: 1140px;
-    margin: 0 auto;
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.deals>p{
-    max-width: 80%;
-    margin: 0 auto;
+.deals > p {
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .bloom {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 360px;
-    height: 200px;
-    background-image: url(./assets/deal-bloom.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 200px;
+  background-image: url(./assets/deal-bloom.png);
 }
 
 .ana {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 360px;
-    height: 200px;
-    background-image: url(./assets/deal-ana.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+  height: 200px;
+  background-image: url(./assets/deal-ana.png);
 }
 
 .zabo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-    height: 425px;
-    background-image: url(./assets/deal-zabo.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 750px;
+  height: 425px;
+  background-image: url(./assets/deal-zabo.png);
 }
 
 .deals-img {
-    display: flex;
-    justify-content: space-between;
-    padding: 120px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 120px 0;
 }
 
 .bloom,
 .ana,
 .zabo {
-    background-color: rgba(0, 0, 0, 0.375);
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 30px;
-    color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0.375);
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(255, 255, 255);
 }
 
 .shop-now {
-    margin-top: 0;
-    font-size: 25px;
-    font-weight: 600;
-    text-decoration: underline;
-    color: rgb(255, 255, 255);
+  margin-top: 0;
+  font-size: 25px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
 }
 
 .deals-left {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 /* Join Section */
 
 .join {
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-    align-items: center;
-    justify-content: center;
-    background-image: url(./assets/news-letter-bg.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 530px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./assets/news-letter-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 530px;
 }
 
 input {
-    background-color: rgb(255, 255, 255);
-    font-family: "Inter", sans-serif;
-    height: 50px;
-    width: 645px;
-    padding-left: 20px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  height: 50px;
+  width: 645px;
+  padding-left: 20px;
 }
 
-.email{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.email {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .join-title {
-    color: rgb(255, 255, 255);
-    font-family: "Noto Serif", serif;
-    font-weight: 700px;
-    font-size: 50px;
-    margin-bottom: 0;
+  color: rgb(255, 255, 255);
+  font-family: "Noto Serif", serif;
+  font-weight: 700px;
+  font-size: 50px;
+  margin-bottom: 0;
 }
 
 .btn-2 {
-    color: rgb(255, 255, 255);
-    background-color: rgb(233, 90, 8);
-    border: none;
-    font-weight: 600;
-    padding: 20px;
-    width: 185px;
-    height: 50px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(233, 90, 8);
+  border: none;
+  font-weight: 600;
+  padding: 20px;
+  width: 185px;
+  height: 50px;
 }
 
 /* Footer Section */
 
 footer {
-    max-width: 1120px;
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 110px;
+  max-width: 1120px;
+  margin: 50px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 110px;
 }
 
 .foot-links {
-    list-style: none;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px 50px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 50px;
 }
 
 .icons {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    height: 36px;
-    width: 36px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  height: 36px;
+  width: 36px;
 }
 
 .twiter {
-    height: 20px
+  height: 20px;
 }
 
-
-
-
-
-
-
-
 @media screen and (max-width: 576px) {
+  .title {
+    font-size: 36px;
+  }
 
-    .title {
-        font-size: 36px;
-    }
+  .navlinks li:not(.cart) {
+    display: none;
+  }
 
-    .navlinks li:not(.cart) {
-        display: none;
-    }
+  .navlinks > li {
+    justify-content: right;
+  }
 
-    .navlinks>li {
-        justify-content: right;
-    }
+  .cart {
+    justify-items: right;
+    padding-left: 50px;
+  }
 
-    .cart {
-        justify-items: right;
-        padding-left: 50px;
-    }
+  .hero {
+    text-align: left;
+    flex-direction: column-reverse;
+  }
 
-    .hero {
-        text-align: left;
-        flex-direction: column-reverse;
+  .cards {
+    margin: 0 auto;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
 
-    }
+  .plants {
+    margin: 0 auto;
+    justify-items: center;
+    /* text-align: left; */
+    padding-left: 15px;
+  }
 
-    .cards {
-        margin: 0 auto;
-        text-align: center;
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .badge {
+    flex-direction: column;
+    padding: 0 15px 120;
+  }
+  .trusted {
+    display: none;
+  }
+  .card {
+    max-width: 200 px;
+  }
 
-    .plants {
-        margin: 0 auto;
-        justify-items: center;
-        /* text-align: left; */
-        padding-left: 15px;
-    }
+  .deals-left {
+    flex-direction: column;
+  }
+  .deals-img {
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .zabo {
+    width: 360px;
+    height: 200px;
+  }
 
-    .badge {
-        flex-direction: column;
-
-    }
-
-    .trusted {
-        
-    }
-
-} 
+  .join {
+    width: 430px;
+    height: 220px;
+  }
+  .join-title {
+    font-size: 25px;
+  }
+  .email {
+    width: 40%;
+    height: auto;
+  }
+  footer {
+    padding: 20px;
+    margin: 50px auto;
+    display:flex ;
+    flex-direction: column;
+    gap: 20px;
+  }
+.foot-links{
+    display: flex;
+    flex-direction: column;
+}
+}

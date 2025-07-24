@@ -328,11 +328,21 @@ footer {
   }
 
   .cards {
+      gap: 5px;
+  padding: 10px;
     margin: 0 auto;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
   }
-
+.card{
+    height: 60%;
+    width: 96%;
+}
+.btn{
+    width:95% ;
+    /* height: 50%; */
+    align-items: center;
+}
   .plants {
     margin: 0 auto;
     justify-items: center;
@@ -366,14 +376,14 @@ footer {
   }
 
   .join {
-    width: 430px;
+    width: 420px;
     height: 220px;
   }
   .join-title {
     font-size: 25px;
   }
   .email {
-    width: 40%;
+    width: 35%;
     height: auto;
   }
   footer {

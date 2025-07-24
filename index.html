@@ -1,192 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Market</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/a8fe43f0f0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/a8fe43f0f0.js"
+      crossorigin="anonymous"
+    ></script>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
 
-<body>
-
+  <body>
     <nav class="navbar">
-        <div class="logo"><img src="./assets/logo.png" alt=""></div>
-        <div>
-            <ul class="navlinks">
-                <li>Home</li>
-                <li>Shop </li>
-                <li>About Us</li>
-                <li class="cart"><i class="fa-solid fa-cart-plus"></i> Cart &nbsp;($56) </li>
-            </ul>
-        </div>
+      <div class="logo"><img src="./assets/logo.png" alt="" /></div>
+      <div>
+        <ul class="navlinks">
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About Us</li>
+          <li class="cart">
+            <i class="fa-solid fa-cart-plus"></i> Cart &nbsp;($56)
+          </li>
+        </ul>
+      </div>
     </nav>
 
-
     <main>
-        <section class="hero">
-            <div>
-                <h1 class="title t-1"> <span>Always</span> Fresh Flowers</h1>
-                <p class="text">Bringing beauty to your doorstep with hand-picked, farm-fresh flowers perfect for every
-                    occasion. Experience the joy of nature with blooms that brighten hearts and homes.</p>
-            </div>
-            <div class="hero-img"><img src="./assets/hero-flower.png" alt=""></div>
-        </section>
+      <section class="hero">
+        <div>
+          <h1 class="title t-1 sm:text-left">
+            <span>Always</span> Fresh Flowers
+          </h1>
+          <p class="text">
+            Bringing beauty to your doorstep with hand-picked, farm-fresh
+            flowers perfect for every occasion. Experience the joy of nature
+            with blooms that brighten hearts and homes.
+          </p>
+        </div>
+        <div class="hero-img">
+          <img src="./assets/hero-flower.png" alt="" />
+        </div>
+      </section>
 
-        <section class="plants">
-            <h1 class="title center">Our <span>Plants</span></h1>
-            <p class="text center">From lush indoor greens to colorful flowering plants, we offer a vibrant selection of
-                healthy, easy-care plants to liven up your home or workspace. Whether you're a seasoned plant lover or
-                just getting started, your perfect green companion awaits.</p>
-            <div class="cards">
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-                <div class="card">
-                    <img class="card-img" src="./assets/sample-flower-image.png" alt="">
-                    <p class="name">Lily Blossom</p>
-                    <p class="price">20 USD</p>
-                    <button class="btn">Add To Cart</button>
-                </div>
-            </div>
-        </section>
+      <section class="plants">
+        <h1 class="title center">Our <span>Plants</span></h1>
+        <p class="text center">
+          From lush indoor greens to colorful flowering plants, we offer a
+          vibrant selection of healthy,  plants to liven up your home
+          or workspace. Whether you're a seasoned plant lover or just getting
+          started, your perfect green companion awaits.
+        </p>
+        <div class="cards">
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+          <div class="card">
+            <img
+              class="card-img"
+              src="./assets/sample-flower-image.png"
+              alt=""
+            />
+            <p class="name">Lily Blossom</p>
+            <p class="price">20 USD</p>
+            <button class="btn">Add To Cart</button>
+          </div>
+        </div>
+      </section>
 
-        <section class="badge">
-            <div class="store-img">
-                <img src="./assets/flower-store.png" alt="" class="seller">
-                <img src="./assets/trusted-badge.png" alt="" class="trusted">
-            </div>
-            <div class="store-text">
-                <h1 class="title"><span>Flower & Plants Lover</span></h1>
-                <ul class="Store-li text">
-                    <li>Explore our colorful, handcrafted flower arrangements perfect for expressing love, joy, or
-                        sympathy. Freshly picked and artfully styled, they're sure to make every occasion feel extra
-                        special.</li>
-                    <li>Brighten your space with easy-care indoor plants that purify the air and uplift your mood.
-                        Whether for home or work, our greens are chosen to thrive in any environment.</li>
-                    <li>Surprise someone special with a meaningful gift that grows. Our flower and plant collections are
-                        perfect for birthdays, anniversaries, or just because thoughtful, lasting, and always full of
-                        charm.</li>
-                </ul>
-            </div>
-        </section>
+      <section class="badge">
+        <div class="store-img">
+          <img src="./assets/flower-store.png" alt="" class="seller" />
+          <img src="./assets/trusted-badge.png" alt="" class="trusted" />
+        </div>
+        <div class="store-text">
+          <h1 class="title"><span>Flower & Plants Lover</span></h1>
+          <ul class="Store-li text">
+            <li>
+              Explore our colorful, handcrafted flower arrangements perfect for
+              expressing love, joy, or sympathy. Freshly picked and artfully
+              styled, they're sure to make every occasion feel extra special.
+            </li>
+            <li>
+              Brighten your space with easy-care indoor plants that purify the
+              air and uplift your mood. Whether for home or work, our greens are
+              chosen to thrive in any environment.
+            </li>
+            <li>
+              Surprise someone special with a meaningful gift that grows. Our
+              flower and plant collections are perfect for birthdays,
+              anniversaries, or just because thoughtful, lasting, and always
+              full of charm.
+            </li>
+          </ul>
+        </div>
+      </section>
 
-        <section class="deals">
-            <h1 class="title center">Latest <span>Deals</span></h1>
-            <p class="text center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, nam! Deleniti
-                sequi, placeat recusandae esse molestias et ducimus accusantium odio qui ipsum quos nam iste commodi
-                veritatis veniam provident sint!</p>
+      <section class="deals">
+        <h1 class="title center">Latest <span>Deals</span></h1>
+        <p class="text center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+          nam! Deleniti sequi, placeat recusandae esse molestias et ducimus
+          accusantium odio qui ipsum quos nam iste commodi veritatis veniam
+          provident sint!
+        </p>
 
-            <!-- <div class="deals-img">
-                <div class="deals-left">
-                    <img src="./assets/deal-bloom.png" alt="" class="bloom">
-                    <img src="./assets/deal-ana.png" alt="" class="ana">
-                </div>
-                <div class="deals-right">
-                    <img src="./assets/deal-zabo.png" alt="" class="zabo">
-                </div>
-            </div> -->
-
-            <div class="deals-img">
-                <div class="deals-left">
-                    <div class="bloom">
-                        <p>60% Off | Bloom Plant</p>
-                        <a href="">Shop Now</a>
-                    </div>
-                    <div class="ana">
-                        <p>30% Off | Ana Plant</p>
-                        <a href="">Shop Now</a>
-                    </div>
-                </div>
-                <div class="deals-right">
-                    <div class="zabo">
-                        <p>25% Off | Zabo Plant</p>
-                        <a href="">Shop Now</a>
-                    </div>
-                </div>
+        <div class="deals-img">
+          <div class="deals-left">
+            <div class="bloom">
+              <p>60% Off | Bloom Plant</p>
+              <p class="shop-now">Shop Now</p>
             </div>
-        </section>
-        <section class="join">
-            <div>
-                <h1 class="join-title">Join The Colorful Branch</h1>
+            <div class="ana">
+              <p>30% Off | Ana Plant</p>
+              <p class="shop-now">Shop Now</p>
             </div>
-            <div><input type="text" placeholder="Write Email">
-                <button class="btn-2">Subscribe</button>
+          </div>
+          <div class="deals-right">
+            <div class="zabo">
+              <p>25% Off | Zabo Plant</p>
+              <p class="shop-now">Shop Now</p>
             </div>
-        </section>
-
+          </div>
+        </div>
+      </section>
+      <section class="join">
+        <div>
+          <h1 class="join-title">Join The Colorful Branch</h1>
+        </div>
+        <div class="email">
+          <input type="text" placeholder="Write Email" />
+          <button class="btn-2">Subscribe</button>
+        </div>
+      </section>
     </main>
     <footer>
-        <div class="logo">
-            <img src="./assets/logo.png" alt="">
-            <p class="text">Bringing fresh blooms and vibrant greens to your doorstep with care and passion. Thank you
-                for choosing us to brighten your moments and spaces</p>
-        </div>
-        <div>
-            <ul class="foot-links text">
-                <li>Home</li>
-                <li>About Us</li>
-                <li>Blog</li>
-                <li>FAQ</li>
-                <li>Contact Us</li>
-                <li>Features</li>
-                <li>Pricing</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
-                <li>Help Center</li>
-            </ul>
-        </div>
-        <div class="icons">
-            <img src="./assets/icon-linkedin.png" alt="">
-            <img class="twiter" src="./assets/icon-twitter.png" alt="">
-            <img src="./assets/icon-facebook.png" alt="">
-            <img src="./assets/icon-youtube.png" alt="">
-        </div>
+      <div class="logo">
+        <img src="./assets/logo.png" alt="" />
+        <p class="text">
+          Bringing fresh blooms and vibrant greens to your doorstep with care
+          and passion. Thank you for choosing us to brighten your moments and
+          spaces
+        </p>
+      </div>
+      <div>
+        <ul class="foot-links text">
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Blog</li>
+          <li>FAQ</li>
+          <li>Contact Us</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Privacy Policy</li>
+          <li>Terms of Service</li>
+          <li>Help Center</li>
+        </ul>
+      </div>
+      <div class="icons">
+        <img src="./assets/icon-linkedin.png" alt="" />
+        <img class="twiter" src="./assets/icon-twitter.png" alt="" />
+        <img src="./assets/icon-facebook.png" alt="" />
+        <img src="./assets/icon-youtube.png" alt="" />
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>

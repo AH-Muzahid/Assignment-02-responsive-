@@ -20,7 +20,8 @@ body {
     font-size: 50px;
     margin-bottom: 0;
 }
-.center{
+
+.center {
     /* align-items: center;
     justify-content: center; */
     text-align: center;
@@ -62,9 +63,10 @@ span {
     align-items: center;
 }
 
-.t-1{
+.t-1 {
     font-size: 65px;
 }
+
 .hero-img {
     /* width: 570px; */
     width: 100%;
@@ -72,48 +74,83 @@ span {
 
 /* Our Plants section */
 
-.plants{
+.plants {
     margin: 0 auto;
     max-width: 1140px;
 }
 
-.cards{
+.cards {
     max-width: 1140px;
     display: grid;
-    grid-template-columns: repeat(4, 1fr) ;
+    grid-template-columns: repeat(4, 1fr);
     gap: 15px;
     padding: 15px;
 
 }
-.card{
-   text-align: center;
+
+.card {
+    text-align: center;
 }
-.name{
+
+.name {
     font-family: "Inter", sans-serif;
     font-weight: 500;
     color: rgb(17, 17, 17);
     font-size: 22px;
 }
 
-.price{
-   font-family: "Inter", sans-serif;
+.price {
+    font-family: "Inter", sans-serif;
     font-weight: 700;
     color: rgb(17, 17, 17);
     font-size: 22px;
 }
-.btn{ 
+
+.btn {
     color: rgb(255, 255, 255);
     background-color: rgb(233, 90, 8);
     border: none;
     font-weight: 600;
-    padding:20px 80px;
+    padding: 20px 80px;
     height: 50px;
     width: 270px;
     margin-bottom: 30px;
 }
 
+/* badge section */
 
+.badge {
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 60px;
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 15px;
+}
 
+.seller {
+    z-index: 1;
+}
+
+.trusted {
+    padding: 15px;
+    z-index: 2;
+    width: 285px;
+    height: 285px;
+    position: relative;
+    left: 370px;
+    top: -740px;
+}
+
+.store-text{
+    padding: 40px;
+}
+
+.Store-li{
+    display: flex;
+    flex-direction: column;
+    gap:20px ;
+}
 
 
 
@@ -139,17 +176,18 @@ span {
     .hero {
         text-align: center;
         flex-direction: column-reverse;
-        
+
     }
 
-.cards{
-    margin: 0 auto;
-    text-align: center;
-    grid-template-columns: repeat(2, 1fr);
-}
-.plants{
-    margin: 0 auto;
-}
+    .cards {
+        margin: 0 auto;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .plants {
+        margin: 0 auto;
+    }
 
 
 

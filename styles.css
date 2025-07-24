@@ -328,21 +328,21 @@ footer {
   }
 
   .cards {
-      gap: 5px;
-  padding: 10px;
+    gap: 5px;
+    padding: 10px;
     margin: 0 auto;
     text-align: center;
     grid-template-columns: repeat(2, 1fr);
   }
-.card{
+  .card {
     height: 60%;
     width: 96%;
-}
-.btn{
-    width:95% ;
+  }
+  .btn {
+    width: 95%;
     /* height: 50%; */
     align-items: center;
-}
+  }
   .plants {
     margin: 0 auto;
     justify-items: center;
@@ -357,26 +357,36 @@ footer {
   .trusted {
     display: none;
   }
+  .seller {
+    margin: 0 auto;
+    padding-right: 0;
+    margin-left: 8px;
+  }
+
   .card {
-    max-width: 200 px;
+    /* max-width: 200 px; */
   }
 
   .deals-left {
     flex-direction: column;
   }
   .deals-img {
+    margin: 0 auto;
+    padding-left: 10px;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
   }
+ 
+  
   .zabo {
     width: 360px;
     height: 200px;
   }
 
   .join {
-    width: 420px;
+    width: 426px;
     height: 220px;
   }
   .join-title {
@@ -389,12 +399,12 @@ footer {
   footer {
     padding: 20px;
     margin: 50px auto;
-    display:flex ;
+    display: flex;
     flex-direction: column;
     gap: 20px;
   }
-.foot-links{
+  .foot-links {
     display: flex;
     flex-direction: column;
-}
+  }
 }

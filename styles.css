@@ -260,7 +260,7 @@ input {
 
 footer {
     max-width: 1120px;
-    margin: 50px  auto;
+    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 110px;
@@ -270,7 +270,7 @@ footer {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap:20px 50px ;
+    gap: 20px 50px;
 }
 
 .icons {
@@ -283,7 +283,6 @@ footer {
 
 .twiter {
     height: 20px
-  
 }
 
 
@@ -325,10 +324,10 @@ footer {
     .badge {
         flex-direction: column;
 
-        .trusted {
-            display: none;
-        }
     }
 
+    .trusted {
+        display: none;
+    }
 
 }

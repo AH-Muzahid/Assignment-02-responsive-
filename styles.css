@@ -22,8 +22,6 @@ body {
 }
 
 .center {
-    /* align-items: center;
-    justify-content: center; */
     text-align: center;
 }
 
@@ -31,7 +29,6 @@ span {
     font-family: "Noto Serif", serif;
     color: black;
 }
-
 
 
 /* Navbar Styles */
@@ -128,6 +125,10 @@ span {
     padding: 120px 15px;
 }
 
+.store-img {
+    position: relative;
+}
+
 .seller {
     z-index: 1;
 }
@@ -137,21 +138,77 @@ span {
     z-index: 2;
     width: 285px;
     height: 285px;
-    position: relative;
+    position: absolute;
     left: 370px;
-    top: -740px;
+    top: -130px;
 }
 
-.store-text{
-    padding: 40px;
+.store-text {
+    padding: 30px;
 }
 
-.Store-li{
+.Store-li {
     display: flex;
     flex-direction: column;
-    gap:20px ;
+    gap: 20px;
 }
 
+
+/* deals section */
+.deals {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.bloom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 200px;
+    background-image: url(./assets/deal-bloom.png);
+}
+.ana{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 360px;
+    height: 200px;
+    background-image: url(./assets/deal-ana.png);
+}
+.zabo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 425px;
+    background-image: url(./assets/deal-zabo.png);
+}
+.deals-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 0;
+}
+
+.bloom,
+.ana,
+.zabo {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+a{
+   color: rgb(255, 255, 255); 
+}
+.deals-left {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
 
 
 
@@ -173,6 +230,10 @@ span {
         display: none;
     }
 
+    .navlinks {
+        justify-content: right;
+    }
+
     .hero {
         text-align: center;
         flex-direction: column-reverse;
@@ -189,6 +250,13 @@ span {
         margin: 0 auto;
     }
 
+    .badge {
+        flex-direction: column;
+
+        .trusted {
+            display: none;
+        }
+    }
 
 
 }

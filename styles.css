@@ -159,7 +159,8 @@ span {
     max-width: 1140px;
     margin: 0 auto;
 }
-.bloom{
+
+.bloom {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -168,7 +169,8 @@ span {
     height: 200px;
     background-image: url(./assets/deal-bloom.png);
 }
-.ana{
+
+.ana {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -177,7 +179,8 @@ span {
     height: 200px;
     background-image: url(./assets/deal-ana.png);
 }
-.zabo{
+
+.zabo {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,6 +189,7 @@ span {
     height: 425px;
     background-image: url(./assets/deal-zabo.png);
 }
+
 .deals-img {
     display: flex;
     justify-content: space-between;
@@ -201,18 +205,86 @@ span {
     font-size: 26px;
     color: rgb(255, 255, 255);
 }
-a{
-   color: rgb(255, 255, 255); 
+
+a {
+    color: rgb(255, 255, 255);
 }
+
 .deals-left {
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
+/* Join Section */
 
+.join {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 530px;
+}
 
+input {
+    font-family: "Inter", sans-serif;
+    height: 50px;
+    width: 645px;
+    padding-left: 20px;
+}
 
+.join-title {
+    color: rgb(255, 255, 255);
+    font-family: "Noto Serif", serif;
+    font-weight: 700px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+.btn-2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(233, 90, 8);
+    border: none;
+    font-weight: 600;
+    padding: 20px;
+    width: 185px;
+    height: 55px;
+}
+
+/* Footer Section */
+
+footer {
+    max-width: 1120px;
+    margin: 50px  auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 110px;
+}
+
+.foot-links {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:20px 50px ;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    height: 36px;
+    width: 36px;
+}
+
+.twiter {
+    height: 20px
+  
+}
 
 
 
